@@ -1,0 +1,104 @@
+.video-detail-bg {
+  background-color: #e2e8f0;
+  background-size: cover;
+  width: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #475569;
+  font-size: 16px;
+}
+.dark-video-detail-bg {
+  background-color: #000000;
+  background-size: cover;
+  width: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #475569;
+  font-size: 16px;
+}
+
+.detail-title {
+  color: #1e293b;
+  font-size: 18px;
+}
+.dark-detail-title {
+  color: white;
+  font-size: 18px;
+}
+
+.view-like-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  border: 1px solid #475569;
+  width: 75vw;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+}
+.dot-icon {
+  margin-top: 5px;
+  height: 25px;
+  width: 25px;
+}
+.normal-btn {
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.blue-btn {
+  background-color: transparent;
+  font-size: 15px;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: #2563eb;
+}
+
+@media screen and (max-width: 767px) {
+  .video-detail-bg {
+    width: 100vw;
+    font-size: 16px;
+  }
+
+  .view-like-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dark-video-detail-bg {
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .detail-title {
+    font-size: 15px;
+  }
+  .dark-detail-title {
+    font-size: 15px;
+  }
+
+  hr {
+    width: 85vw;
+  }
+}

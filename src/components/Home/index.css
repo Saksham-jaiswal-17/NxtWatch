@@ -1,0 +1,171 @@
+.banner-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25vh;
+  color: #475569;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 20px;
+}
+.hide {
+  display: none;
+}
+.website-logo2 {
+  height: 35px;
+  width: 150px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.close-btn {
+  background-color: transparent;
+  border: 0px;
+  font-weight: bold;
+}
+.get-it-btn {
+  color: #475569;
+  background-color: transparent;
+  border: 2px solid #475569;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 120px;
+  margin-right: 30px;
+}
+.home-container {
+  background-size: cover;
+  width: 85vw;
+  height: 85vh;
+  overflow-y: auto;
+}
+.home-video-container {
+  background-color: #f1f5f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dark-home-video-container {
+  background-color: #0f0f0f;
+  min-height: 85vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.center-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.light-search-container {
+  border: 1px solid #64748b;
+  align-self: flex-start;
+  color: #64748b;
+  font-size: 20px;
+}
+.dark-search-container {
+  background-color: #313131;
+  border: 1px solid #64748b;
+  font-size: 20px;
+  align-self: flex-start;
+  color: #64748b;
+  padding: 0px;
+}
+
+.light-search {
+  font-size: 15px;
+  border: 0px;
+  padding: 7px;
+  width: 300px;
+}
+
+.dark-search {
+  background-color: #0f0f0f;
+  margin: 0px;
+  color: white;
+  border: 0px;
+  padding: 7px;
+  width: 300px;
+}
+.search-logo {
+  height: 16px;
+  width: 60px;
+  cursor: pointer;
+}
+.column-center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+.failure-description {
+  color: #64748b;
+  font-size: 15px;
+}
+.failure-heading {
+  color: #475569;
+  font-size: 20px;
+}
+.retry-btn {
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 15px;
+  width: 100px;
+  background-color: #00306e;
+  border: 0px;
+}
+.video-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .website-logo2 {
+    height: 30px;
+    width: 130px;
+  }
+  .home-container {
+    width: 100vw;
+  }
+
+  .light-search {
+    width: 200px;
+  }
+
+  .dark-search {
+    width: 200px;
+  }
+  .failure-img {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+  }
+  .failure-description {
+    font-size: 14px;
+  }
+  .failure-heading {
+    font-size: 17px;
+  }
+  .retry-btn {
+    width: 70px;
+  }
+}

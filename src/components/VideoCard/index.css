@@ -1,0 +1,52 @@
+.video-card-container {
+  background-color: transparent;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 20vw;
+  font-size: 17px;
+}
+.thumbnail {
+  height: 160px;
+  width: 20vw;
+}
+.profile-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.video-card-title {
+  color: #475569;
+}
+.dark-video-card-title {
+  color: white;
+}
+
+.video-card-details {
+  color: #94a3b8;
+}
+
+@media screen and (max-width: 767px) {
+  .video-card-container {
+    width: 90vw;
+  }
+  .thumbnail {
+    height: 160px;
+    width: 90vw;
+  }
+
+  .video-card-title {
+    font-size: 16px;
+  }
+  .dark-video-card-title {
+    font-size: 16px;
+  }
+
+  .video-card-details {
+    font-size: 13px;
+  }
+}

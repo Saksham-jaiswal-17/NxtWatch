@@ -1,0 +1,85 @@
+.login-form-container {
+  background-color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.form-container {
+  background-size: cover;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 35px;
+}
+.dark-login-form-container {
+  background-color: #212121;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-form-container {
+  background-color: #000000;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 35px;
+}
+
+.login-website-logo {
+  height: 50px;
+  width: 200px;
+  margin: 40px;
+}
+.website-logo {
+  height: 50px;
+  width: 200px;
+  margin: 40px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-label {
+  color: #475569;
+  font-size: 15px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.login-input-field {
+  width: 300px;
+  padding: 7px;
+  font-size: 17px;
+  border: 1px solid gray;
+  margin-bottom: 25px;
+}
+
+.login-button {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 15px;
+  padding: 10px;
+  border: 0px;
+  font-weight: bold;
+}
+.error-message {
+  color: red;
+}

@@ -1,0 +1,250 @@
+.nav-header {
+  padding: 0px;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+.dark-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+.website-logo {
+  height: 40px;
+  width: 150px;
+}
+.profile-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 25px;
+}
+.logout-desktop-btn {
+  color: #3b82f6;
+  background-color: transparent;
+  border: 2px solid #3b82f6;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 90px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.moon-icon {
+  height: 33px;
+  margin-right: 25px;
+  width: 33px;
+  cursor: pointer;
+}
+.sun-icon {
+  cursor: pointer;
+  height: 40px;
+  margin-right: 25px;
+  color: white;
+  width: 40px;
+}
+.logout-popup {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: #616e7c;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.dark-logout-popup {
+  background-color: #212121;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  padding-top: 25px;
+  margin: 0px;
+  padding-bottom: 25px;
+  color: #616e7c;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row-container-popup-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logout-confirm {
+  background-color: #3b82f6;
+  color: white;
+  border: 0px;
+  height: 50px;
+  font-size: 17px;
+  width: 130px;
+  margin: 10px;
+}
+.logout-cancel {
+  background-color: transparent;
+  color: #7e858e;
+  border: 1px solid #7e858e;
+  font-size: 17px;
+  margin: 10px;
+  height: 50px;
+  width: 130px;
+}
+.nav-menu-mobile {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+.dark-nav-menu-mobile {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logout-mobile-btn {
+  background-color: transparent;
+  border: 0px;
+}
+.logout-icon {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-menu-icon {
+  height: 40px;
+  width: 35px;
+  color: #616e7c;
+}
+.logo-btn {
+  background-color: transparent;
+  border: 0px;
+  align-self: flex-end;
+  font-weight: bold;
+}
+.light-bg {
+  background-color: white;
+}
+.dark-bg {
+  color: white;
+  background-color: black;
+}
+.popup-content {
+  margin: 0px;
+  border: 0px;
+  background-size: cover;
+  padding: 0px;
+}
+.blackClose {
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  background-color: transparent;
+}
+.whiteClose {
+  border: 0px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-content {
+    display: none;
+  }
+  .dark-nav-container {
+    display: none;
+  }
+  .website-logo {
+    height: 20px;
+    width: 70px;
+  }
+
+  .light-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    height: 300px;
+    width: 250px;
+  }
+  .dark-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    height: 300px;
+    width: 250px;
+  }
+
+  .logout-popup {
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+  }
+  .dark-logout-popup {
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+  }
+
+  .moon-icon {
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+  }
+  .sun-icon {
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+  }
+  .nav-menu-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dark-nav-menu-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+}

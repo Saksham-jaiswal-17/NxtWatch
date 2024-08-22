@@ -1,0 +1,16 @@
+.trending-video-thumbnail {
+  height: 150px;
+  width: 330px;
+  margin: 10px;
+}
+.trending-dot-icon {
+  height: 25px;
+  margin-top: 20px;
+  width: 25px;
+}
+@media screen and (max-width: 767px) {
+  .trending-video-thumbnail {
+    height: 120px;
+    width: 170px;
+  }
+}

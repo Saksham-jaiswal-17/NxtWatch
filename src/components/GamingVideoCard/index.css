@@ -1,0 +1,11 @@
+.gamming-video-thumbnail {
+  height: 55vh;
+  width: 20vw;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .gamming-video-thumbnail {
+    height: 34vh;
+    width: 50vw;
+  }
+}

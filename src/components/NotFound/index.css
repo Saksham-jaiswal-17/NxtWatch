@@ -1,0 +1,24 @@
+.not-found-container {
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.dark-not-found-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    height: 250px;
+    width: 250px;
+  }
+}

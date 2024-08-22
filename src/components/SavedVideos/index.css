@@ -1,0 +1,38 @@
+.no-saved-videos {
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+}
+.no-saved-container {
+  background-color: #d7dfe9;
+  background-size: cover;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  font-weight: bold;
+}
+.dark-no-saved-container {
+  height: 85vh;
+  background-color: #000000;
+  background-size: cover;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  
+  .no-saved-container {
+    width: 100vw;
+    height: 90vh;
+  }
+  .dark-no-saved-container {
+    height: 90vh;
+    width: 100vw;
+  }
+}
