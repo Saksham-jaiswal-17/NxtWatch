@@ -26,7 +26,6 @@
   font-weight: bold;
 }
 @media screen and (max-width: 767px) {
-  
   .no-saved-container {
     width: 100vw;
     height: 90vh;
